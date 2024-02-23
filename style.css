@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*....top-menu....*/
+.top-header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 90%;
+    padding-top: 40px;
+}
+.top-header-right-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header-right-menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+.top-header-right-menu ul li a{
+    text-decoration: none;
+    color: #9ba1b1;
+}
+.top-header-right-menu span{ 
+    background-color: #08c056;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+    box-shadow: 0 0 8px #08c056;
+    margin: 10px;
+}
+.top-header-left-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header-left-menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+.top-header-left-menu ul li a{
+    text-decoration: none;
+    color: #9ba1b1;
+}
+.top-header-left-menu .tel a{
+    color: #5f6677;
+    font-size: 15px;
+    letter-spacing: .5px;
+}
+.top-header-left-menu .tel span{
+    font-size: 13px;
+    margin-right: 3px;
+}
+.top-header-brand{
+    position: relative;
+}
+.top-header-brand::after{
+    content: "";
+    background-color: #08c056;
+    position: absolute;
+    bottom: 57px;
+    left: -15px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    box-shadow: 0 0 8px #08c056;
+}
+
+/*....main-menu....*/
