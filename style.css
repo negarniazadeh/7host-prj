@@ -77,3 +77,112 @@
 }
 
 /*....main-menu....*/
+
+.main-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.main-menu-container ul{
+    position: relative;
+}
+.main-menu-container ul::after{
+    content: "";
+    position: absolute;
+    background: #496ba9;
+    left: -10px;
+    right: -10px;
+    height: 1px;
+    bottom: 17px;
+}
+.main-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 25px 17px;
+    margin-top: 70px;
+}
+.main-menu ul li a{
+    text-decoration: none;
+    color: #5f6677;
+    font-size: 14px;
+}
+.main-menu ul li span{
+    display: block;
+}
+.main-menu .main-menu-icon{
+   margin-bottom: 13px;
+}
+.main-menu div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-menu .alert-num{
+    position: absolute;
+    bottom: 25px;
+    background-color: #08c056;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    width: 35px;
+    height: 17px;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 15px;
+}
+.main-menu .main-page-li{
+    position: relative;
+    border-bottom: 20px solid #fff;
+    border-left: 20px solid #fff; 
+    border-right: 20px solid #fff;;
+    z-index: 2;
+}
+.main-menu .main-page-li::after{
+    content: "";
+    background: url(./images/download.svg);
+    position: absolute;
+    z-index: 9999;
+    width: 58px;
+    height: 111px;
+    top: -26px;
+    left: -20px;
+}
+.main-menu .main-page-li::before{
+    content: "";
+    background: url(./images/download\ \(1\).svg);
+    position: absolute;
+    z-index: 9999;
+    width: 58px;
+    height: 111px;
+    top: -26px;
+    right: -20px;
+}
+.main-menu .main-page-li>a>div::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    background: #0cbb5b;
+    top: -26px;
+    left: 11px;
+    right: 11px;
+}
+.main-menu nav{
+    position: relative;
+}
+.main-menu nav::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: #496ba9;
+    background: -moz-linear-gradient(left,hsla(0,0%,100%,0) 0,#fff 100%);
+    background: -webkit-linear-gradient(left,hsla(0,0%,100%,0),#fff);
+    background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#fff);
+    bottom: 17px;
+    right: -97px;
+    z-index: 10;
+}
