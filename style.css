@@ -1,3 +1,15 @@
+@font-face {
+    font-family: vazir;
+    font-weight: normal;
+    font-style: normal;
+    src: url(./fonts/Vazir-Medium.eot) ;
+    src: url(./fonts/Vazir-Medium.ttf);
+    src: url(./fonts/Vazir-Medium.woff);
+    src: url(./fonts/Vazir-Medium.woff2);
+}
+body{
+    font-family: 'vazir';
+}
 *{
     margin: 0;
     padding: 0;
@@ -148,7 +160,7 @@
     z-index: 9999;
     width: 58px;
     height: 111px;
-    top: -26px;
+    top: -18px;
     left: -20px;
 }
 .main-menu .main-page-li::before{
@@ -158,7 +170,7 @@
     z-index: 9999;
     width: 58px;
     height: 111px;
-    top: -26px;
+    top: -18px;
     right: -20px;
 }
 .main-menu .main-page-li>a>div::before{
@@ -166,11 +178,11 @@
     position: absolute;
     height: 1px;
     background: #0cbb5b;
-    top: -26px;
+    top: -18px;
     left: 11px;
     right: 11px;
 }
-.main-menu nav{
+/*.main-menu nav{
     position: relative;
 }
 .main-menu nav::before{
@@ -186,3 +198,146 @@
     right: -97px;
     z-index: 10;
 }
+.main-menu nav::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: #496ba9;
+    background: -moz-linear-gradient(left,hsla(0,0%,100%,0) 0,#fff 100%);
+    background: -webkit-linear-gradient(left,hsla(0,0%,100%,0),#fff);
+    background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#fff);
+    bottom: 11px;
+    left: -10px;
+    z-index: 10;
+}*/
+
+/*....section-one....*/
+
+.section-one{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: 100px;
+}
+.section-one-left .section-one-left-background{
+    background: url(./images/section-one-slider-bg.png) no-repeat;
+    width: 613px;
+    height: 568px;
+}
+.section-one-left-titr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20%;
+}
+.section-one-left-titr-first-child{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.section-one-left-titr-last-child{
+    color: #a0a7b7;
+}
+.section-one-left-p{
+    text-align: end ;
+    line-height: 27.4px;
+    margin-bottom: 30px;
+    padding: 30px 90px;
+}
+.section-one-left-background button{
+    font-size: 15px;
+    color: #fefeff;
+    background-color: #08c056;
+    border: 1px solid #08c056;
+    box-shadow: 0 0 15px #08c056;
+    width: 200px;
+    padding: 10px 0;
+    font-weight: 800;
+    text-align: center;
+    margin: -50px 90px ;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.section-one-left-background span{
+    background-color: #08c056;
+    box-shadow: 0 0 0 1px #08c056;
+    width: 20px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 40px ;
+    margin: 70px 270px ;
+}
+.section-one-right-titr p{
+   text-align: center;
+   color: #a8b1c6;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.section-one-right-titr p:last-of-type{
+    text-align: center;
+    color: #a8b1c6;
+     font-size: 22px;
+     margin-bottom: 25px;
+ }
+ .cont-form-right .form-right .field-text{
+    background: url(./images/earth.PNG) no-repeat 20px ;
+    width: 100%;
+    height: 55px;
+    border: none;
+    padding: 0 60px;
+ }
+ .cont-form-right .form-right .field-sub{
+    background: url(./images/search.PNG) no-repeat 24px 19px ;
+    box-shadow: inset 0 5px 5px rgba(95,102,119,.16);
+    border: none;
+    position: absolute;
+    width: 70px;
+    height: 90%;
+    bottom: 7px;
+    right: -1px;
+    border-radius: 40px;
+    cursor: pointer;
+ }
+ .cont-form-right .form-right{
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 40px;
+ }
+ .cont-form-right{
+    position: relative;
+ }
+ .cont-form-right::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    right: 0;
+    top: 5px;
+    height: 50px;
+    background-image: linear-gradient(75deg, #08c056, #4d66ae);
+    z-index: -1;
+    filter: blur(14px);
+    transform: scale(.93, .7);
+ }
+.section-one-right-robot{
+    text-align: center;
+    margin-top: 20%;
+}
+.section-one-right-robot p{
+    color: #08c056 ;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.section-one-right-robot p:last-of-type{
+    color: #9098ac;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.68px;
+}
+
+
+
