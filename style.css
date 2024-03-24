@@ -16,6 +16,10 @@ body{
     box-sizing: border-box;
 }
 
+/*....top-menu-responsive....*/
+.main-menu-responsiv-cont{
+    display: none;
+}
 /*....top-menu....*/
 .top-header{
     display: flex;
@@ -339,6 +343,12 @@ body{
     letter-spacing: 1.68px;
 }
 
+/* service-tap-responsiv */
+.service-tap-responsiv{
+    display: none;
+}
+/* end service-tap-responsiv */
+
 /*  service-section  */
 
 
@@ -428,6 +438,11 @@ body{
     height: 100%;
     cursor: pointer;
     padding-top: 6%;
+    position: relative;
+    z-index: 1;
+}
+.service-tap-left{
+    position: relative;
 }
 .service-tap-right ul{
     list-style-type: none;

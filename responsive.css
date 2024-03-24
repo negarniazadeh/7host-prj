@@ -1,0 +1,205 @@
+@media screen and (max-width:768px) {
+    .top-header{
+        flex-direction: column;
+        gap: 10px ;
+    }
+    .top-header-brand {
+        order: -1;
+    }
+    .top-header-right-menu span{
+        display: none;
+    }
+    .main-menu{
+        display: none;
+    }
+    .main-menu-responsiv-cont{
+        display: block;
+    }
+    .main-menu-responsiv{
+        display: flex;
+        justify-content: space-around;
+        gap: 65%;
+        align-items: center;
+        background: #08c056;
+        width: 90%;
+        margin: 20px 40px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .main-menu-responsiv-buttun{
+        background-color: rgba(0, 0, 0, .1);
+        padding: 7px 10px;
+        display: flex;
+        align-items: center;
+        border-radius: 3px;
+    }
+    .main-menu-responsiv-buttun svg{
+        width: 25px;
+        height: 25px;
+    }
+    .main-menu-responsiv-title{
+        color: #fff;
+    }
+    .section-one-left{
+        display: none;
+    }
+    .section-one-right-titr img{
+        display: none;
+    }
+    .service-tap{
+        display: none;
+    }
+    .service-tap-responsiv{
+        display: block;
+    }
+    .service-tap-responsiv-box{
+        box-shadow: 0 3px 27px rgba(194,199,213,.38);
+        background-color: #fff;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 70%;
+        margin: 0 15%;
+        padding: 40px 20px 20px;
+        border-radius: 20px;
+    }
+    .service-tap-responsiv-box-img{
+        width: 100px;
+    }
+    .service-tap-responsiv-box-title{
+        color: #08c056;
+        font-size: 20px;
+        letter-spacing: -.37px;
+    }
+    .service-tap-responsiv-box-content{
+    font-size: 14px;
+    direction: rtl;
+    color: #5f6677;
+    letter-spacing: -.26px;
+    text-align: justify;
+    padding: 0 10%;
+    }
+    .service-tap-responsiv-box-buttun button{
+        background: #08c056;
+        border: none;
+        padding: 10px 50px;
+        border-radius: 50px;
+    }
+    .service-tap-responsiv-box-buttun button p{
+    color: #fefeff;
+    font-size: 16px;
+    font-weight: 900;
+    }
+    .service-tap-responsiv-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .service-section-bottom{
+        margin-bottom: 10%;
+    }
+    .why-7host-items{
+        display: none;
+    }
+    .service-tap-responsiv-box{}
+    .last{
+        margin-bottom: 20px;
+    }
+    .why-7host-value{
+        width: 50%;
+    }
+    .last-section2{
+        display: none;
+    }
+    .last-section-cont{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .last-section13{
+        order: -1 ;
+    }
+    .last-section1-number{
+        justify-content: flex-start;
+        gap: 50%;
+    }
+    .customer-branding{
+        margin-top: 60px ;
+    }
+    .learn7 , .zaya , .qeshm , .bartaramooz , .cng{
+        display: none;
+    }
+    .customer-branding-items {
+        gap: 10%;
+    }
+    .footer-cont{
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: 
+        "f s"
+        "t l"
+        "a a"
+        ;
+    }
+    .footer-nav-list{}
+    .first{
+        grid-area: f;
+    }
+    .footer-nav-list{}
+    .second{
+        grid-area: s;
+    }
+    .footer-nav-list{}
+    .third{
+        grid-area: t;
+        padding-top: 50px;
+    }
+    .footer-nav-list{}
+    .last{
+        grid-area: l;
+        padding-top: 50px;
+    }
+    .footer-about{
+        grid-area: a;
+        padding-top: 50px;
+    }
+    .copyright-section-items {
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        grid-template-areas: 
+        "t"
+        "o"
+        ;
+    }
+    .copyright-section-socials{}
+    .one{
+        grid-area: o;
+        text-align: center;
+        margin: 0;
+    }
+    .copyright-section-button-cont{}
+    .two{
+        grid-area: t;
+    }
+    .copyright-section-button-cont{
+        margin-left: 55%;
+        margin-bottom: 5%;
+    }
+    .copyright-section-button{
+        margin: 0;
+        padding: 8px 20px;
+        font-size: 10px;
+    }
+    .customer-branding {
+        min-height: 300px;
+    }
+    .footer::before {
+        top: -6%;
+        left: 40%;
+    }
+}
